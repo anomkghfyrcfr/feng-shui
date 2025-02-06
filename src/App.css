@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.feng {
+    background-color: #0c0032; 
+    background-size: cover; 
+    height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    row-gap: 10px;
+    position: relative; /* Ajout pour positionner les enfants absolus */
+
+}
+.feng h1{
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 4.2vw;
+    justify-content: center;
+    align-items: start;
+    display: flex; 
+}
+.yss0{
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    column-gap: 18vw;
+}
+.yassine{
+    margin-top: 5.21vh;
+    padding-left: 4vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
+.yass{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.yassine h2{
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+}
+.yassine p{
+    color: white;
+    font-size: 13px;
+}
+.yassine .btn{
+    display: flex;
+    justify-content: center;
+
+}
+.yassine button{
+    padding: 1.5vw 3.5vw ;
+    /* width: 150px; */
+    border: 1px solid #190061;
+    border-radius: 12px;
+    font-size: 13px;
+    background-color: #1e0076;
+    color: white;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.yassine button:hover{
+    background-color: #160255;
+    transition: 0.2s linear;
+}
+.yassine input{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacement entre l'input et le message d'erreur */
+    width: 66.67vh;
+    justify-content: center;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1vw;
+    min-width: 0;
+}
+
+.yassine2 img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    width: 25vw;
+    height: 25vw;
+    background-color: #0c0032;
+}
+.divhr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; 
+}
+.hr{
+    
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 50px;
+}
+.titre2 {
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    margin-top: 30px;
+    color: #0c0032;
+    font-family: inherit;
+    
+}
+.diveau{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.eau {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    border: 1px solid #ADD8E6;
+    border-radius: 15px;
+    width: 80vw;
+     height: 14vw; 
+    align-items: center;
+    justify-content: center;
+    background-color: #add8e6aa;
+    /* background-color: #4CAF50; */
+}
+.eau p{
+    font-family: inherit;
+    font-size: 1vw;
+    justify-content: start;
+    width: 18.23vw;
+}
+.chrono{
+    border: 1px solid #190061;
+    display: flex;
+    flex-direction: column;
+    background-color: #190061;
+    border-radius: 15px;
+    align-items: center;
+    padding: 1.2vw;
+}
+.chronometre{
+    display: flex;
+    justify-content: center;
+}
+.eau .btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.7vw;
+}
+.eau .btn button {
+    padding: 1.4vw ;
+    width: 11.2vw;
+    border: 1px solid #190061;
+    border-radius: 12px;
+    font-size: 1.1vw;
+    background-color: #1e0076;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.eau .btn button:hover{
+    background-color: #0c0032;
+    transition: 0.3s linear;
+    /* color: rgba(0, 184, 0, 0.474); */
+
+}
+.eau-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* S'assurer que le conteneur prend toute la hauteur de l'écran */
+  }
+  
+  .timers-container {
+    position: relative;
+    z-index: 1; /* S'assurer que les timers restent au-dessus de Felicitation */
+  }
+  
+  .felicitation-container {
+    row-gap: 1.3vw;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 38vw;
+    width: 38vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green; 
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2; /* Assurez-vous que le composant Felicitation soit au-dessus des timers */
+    text-align: center;
+  }
+  .felicitation-container h1{
+    color: white;
+    font-size: 2.5vw;
+  }
+  
+  .felicitation-container h2 {
+    color: white;
+    font-size: 1.4vw;
+  }
+  .felicitation-container button{
+    width: 9vw;
+    height: 3vw;
+    border: 1px solid white;
+    border-radius: 0.52vw;
+    font-size: 0.8vw;
+    cursor: pointer;
+    transition: 0.5s linear;
+  }
+  .felicitation-container button:hover{
+    background-color: green;
+    transition: 0.3s linear;
+    color: white;
+  }
+  .img22{
+    border-radius: 50%;
+    height: 20vw;
+  }
+.hh44{
+    font-size: 13px;
+}
