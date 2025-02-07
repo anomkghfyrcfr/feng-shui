@@ -16,6 +16,7 @@
     position: relative; /* Ajout pour positionner les enfants absolus */
 
 }
+
 .feng h1{
     color: white;
     font-size: 2.5vw;
@@ -103,6 +104,71 @@
     height: 25vw;
     background-color: #0c0032;
 }
+@media (max-width: 660px) {
+    .feng h1{
+        font-size: 29px;
+    }
+    .yassine h2{
+        justify-content: center;
+    }
+    .yss0 {
+      flex-direction: column; /* Change la direction en colonne pour les mobiles */
+      row-gap: 55px; /* Espacement entre l'image et le contenu */
+      padding-left: 0; /* Réinitialise le padding pour les mobiles */
+    }
+  
+    .yassine2 img {
+      width: 50vw; /* Ajuste la taille de l'image pour les mobiles */
+      height: 50vw;
+      margin: 0 auto; /* Centre l'image */
+    }
+  
+    .yassine {
+      margin-top: 0; /* Réinitialise la marge pour les mobiles */
+      padding-left: 0; /* Réinitialise le padding pour les mobiles */
+      text-align: center; /* Centre le texte */
+      row-gap: 30px;
+    }
+  
+    .yassine input {
+      width: 80%; /* Ajuste la largeur de l'input pour les mobiles */
+      margin: 0 auto; /* Centre l'input */
+      font-size: 13px;
+    }
+  
+    .yassine button {
+      width: 50%; /* Ajuste la largeur du bouton pour les mobiles */
+      margin: 0 auto; /* Centre le bouton */
+      padding: 12px;
+    }
+    .eau {
+        width: 90vw; /* Ajuste la largeur pour les mobiles */
+        height: auto; /* Hauteur automatique pour s'adapter au contenu */
+        padding: 15px; /* Réduit le padding */
+        flex-direction: column; /* Change la direction en colonne */
+        row-gap: 20px; /* Espacement vertical entre les éléments */
+        column-gap: 0; /* Supprime l'espacement horizontal */
+        margin: 0 auto; /* Centre le conteneur */
+    }
+
+    .eau p {
+        font-size: 16px; /* Taille de police fixe pour une meilleure lisibilité */
+        width: 100%; /* Occupe toute la largeur disponible */
+        text-align: center; /* Centre le texte */
+    }
+
+    .eau .btn {
+        flex-direction: column; /* Change la direction en colonne */
+        row-gap: 10px; /* Espacement vertical entre les boutons */
+        column-gap: 0; /* Supprime l'espacement horizontal */
+    }
+    .eau .btn button {
+        width: 100%; /* Les boutons occupent toute la largeur */
+        padding: 10px; /* Réduit le padding */
+        font-size: 14px; /* Taille de police fixe */
+    }
+
+  }
 .divhr{
     display: flex;
     justify-content: center;
