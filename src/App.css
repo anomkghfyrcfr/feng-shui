@@ -142,30 +142,85 @@
       padding: 12px;
     }
     .eau {
-        width: 90vw; /* Ajuste la largeur pour les mobiles */
-        height: auto; /* Hauteur automatique pour s'adapter au contenu */
-        padding: 15px; /* Réduit le padding */
-        flex-direction: column; /* Change la direction en colonne */
-        row-gap: 20px; /* Espacement vertical entre les éléments */
-        column-gap: 0; /* Supprime l'espacement horizontal */
-        margin: 0 auto; /* Centre le conteneur */
+        display: flex !important; 
+        /* flex-direction: column !important;  */
+        width: 90vw !important;
+        height: auto !important;
+        padding: 15px !important;
+        row-gap: 20px !important;
+        column-gap: 5px !important;
+        margin: 0 auto !important;
+        align-items: center !important;
+        text-align: center !important;
     }
 
     .eau p {
-        font-size: 16px; /* Taille de police fixe pour une meilleure lisibilité */
-        width: 100%; /* Occupe toute la largeur disponible */
-        text-align: center; /* Centre le texte */
+        font-size: 12px !important;
+        width: 100% !important;
     }
 
     .eau .btn {
-        flex-direction: column; /* Change la direction en colonne */
-        row-gap: 10px; /* Espacement vertical entre les boutons */
-        column-gap: 0; /* Supprime l'espacement horizontal */
+        display: flex !important;
+        /* flex-direction: column !important; */
+        row-gap: 10px !important;
+        width: 100% !important;
     }
+
     .eau .btn button {
-        width: 100%; /* Les boutons occupent toute la largeur */
-        padding: 10px; /* Réduit le padding */
-        font-size: 14px; /* Taille de police fixe */
+        width: 100% !important;
+        padding: 14px !important;
+        font-size: 12px !important;
+    }
+
+    .chrono {
+        width: 90vw !important; /* Ajuste la largeur pour s'adapter à l'écran */
+        padding: 2.5vw !important; /* Augmente le padding pour l'espace interne */
+        border-radius: 10px !important; /* Réduit le border-radius pour mobile */
+        align-items: center !important; /* Centre le contenu */
+        text-align: center !important; /* Centre le texte */
+    }
+
+    .chronometre {
+        flex-direction: column; /* Met les éléments en colonne */
+        align-items: center; /* Centre les éléments */
+        row-gap: 10px; /* Ajoute de l'espace entre les éléments */
+    }
+
+    .chrono h1, .chrono h2, .chrono p {
+        font-size: 4vw; /* Adapte la taille du texte pour les petits écrans */
+    }
+
+    .chrono button {
+        width: 80%; /* Rend le bouton plus large pour mobile */
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .felicitation-container {
+        row-gap: 5vw !important;
+        width: 90vw !important; /* Ajuste la largeur pour les petits écrans */
+        height: auto !important; /* Ajuste la hauteur automatiquement */
+        padding: 20px !important; /* Ajoute un padding adapté */
+        border-radius: 10px !important; /* Arrondit les bords */
+        text-align: center !important; /* Centre le texte */
+    }
+
+    .felicitation-container h1 {
+        font-size: 5vw!important; /* Augmente la taille du titre pour mobile */
+    }
+
+    .felicitation-container h2 {
+        font-size: 3vw!important; /* Augmente la taille du sous-titre */
+    }
+
+    .felicitation-container button {
+        width: 40vw !important; /* Augmente la largeur pour être plus accessible */
+        height: 10vw !important; /* Ajuste la hauteur */
+        font-size: 2.5vw !important; /* Augmente la taille du texte */
+        border-radius: 2vw !important; /* Arrondit les bords */
+    }
+    .img22{
+        height: 30vw !important;
     }
 
   }
