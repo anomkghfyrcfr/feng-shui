@@ -36,7 +36,7 @@
     padding-left: 4vh;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 35px;
     justify-content: center;
 }
 .yass{
@@ -65,7 +65,7 @@
 }
 .yassine button{
     padding: 1.5vw 3.5vw ;
-    /* width: 150px; */
+    margin-right: 25%;
     border: 1px solid #190061;
     border-radius: 12px;
     font-size: 13px;
@@ -75,10 +75,15 @@
     display: flex;
     cursor: pointer;
     transition: 0.2s linear;
+    transition: transform 0.3s ease-in-out;
+    transition: 0.2s linear;
 }
 .yassine button:hover{
     background-color: #160255;
     transition: 0.2s linear;
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .yassine input{
     
