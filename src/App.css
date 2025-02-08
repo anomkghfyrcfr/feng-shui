@@ -143,7 +143,7 @@
     }
     .eau {
         display: flex !important; 
-        /* flex-direction: column !important;  */
+        flex-direction: column !important; 
         width: 90vw !important;
         height: auto !important;
         padding: 15px !important;
@@ -155,7 +155,7 @@
     }
 
     .eau p {
-        font-size: 12px !important;
+        font-size: 16px !important;
         width: 100% !important;
     }
 
@@ -163,7 +163,7 @@
         display: flex !important;
         /* flex-direction: column !important; */
         row-gap: 10px !important;
-        width: 100% !important;
+        width: 50% !important;
     }
 
     .eau .btn button {
@@ -173,7 +173,7 @@
     }
 
     .chrono {
-        width: 90vw !important; /* Ajuste la largeur pour s'adapter à l'écran */
+        width: 70vw !important; /* Ajuste la largeur pour s'adapter à l'écran */
         padding: 2.5vw !important; /* Augmente le padding pour l'espace interne */
         border-radius: 10px !important; /* Réduit le border-radius pour mobile */
         align-items: center !important; /* Centre le contenu */
@@ -184,6 +184,7 @@
         flex-direction: column; /* Met les éléments en colonne */
         align-items: center; /* Centre les éléments */
         row-gap: 10px; /* Ajoute de l'espace entre les éléments */
+        font-size: 16px;
     }
 
     .chrono h1, .chrono h2, .chrono p {

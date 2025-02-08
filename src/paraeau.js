@@ -47,7 +47,7 @@ export default function Paraeau(props){
         <div className="eau" style={{backgroundColor:props.color , color:props.colorr}}>
             <p><b>{props.title} </b></p>
             <div className="chrono" style={{backgroundColor:props.lon}}>
-            <div className="chronometre" style={{ fontSize: "2.1vw", marginBottom: "1.5vw", color :"white"}}>
+            <div className="chronometre"  style={{ fontSize: "2.1vw", marginBottom: "1.5vw", color :"white"}}>
                 {formatTime(second)}
             </div>
             <div className="btn">
