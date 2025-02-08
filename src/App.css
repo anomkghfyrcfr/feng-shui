@@ -181,10 +181,11 @@
     }
 
     .chronometre {
-        flex-direction: column; /* Met les éléments en colonne */
-        align-items: center; /* Centre les éléments */
-        row-gap: 10px; /* Ajoute de l'espace entre les éléments */
-        font-size: 16px;
+        display: flex !important;
+        flex-direction: row !important; /* Met les éléments en colonne */
+        align-items: center !important; /* Centre les éléments */
+        row-gap: 10px !important; /* Ajoute de l'espace entre les éléments */
+        font-size: 16px !important;
     }
 
     .chrono h1, .chrono h2, .chrono p {
@@ -194,7 +195,16 @@
     .chrono button {
         width: 80%; /* Rend le bouton plus large pour mobile */
         padding: 12px;
-        font-size: 14px;
+        font-size: 23px;
+    }
+
+    .chrono .btn {
+        display: flex !important;
+        flex-direction: row !important; /* Met les boutons en colonne */
+        align-items: center !important; /* Centre les boutons */
+        justify-content: center !important;
+        gap: 10px !important; /* Espacement entre les boutons */
+        width: 100% !important;
     }
 
     .felicitation-container {
