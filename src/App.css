@@ -184,8 +184,8 @@
     }
 
     .chrono {
-        width: 70vw !important; /* Ajuste la largeur pour s'adapter à l'écran */
-        padding: 2.5vw !important; /* Augmente le padding pour l'espace interne */
+        width: 75vw !important; /* Ajuste la largeur pour s'adapter à l'écran */
+        padding: 3.5vw !important; /* Augmente le padding pour l'espace interne */
         border-radius: 10px !important; /* Réduit le border-radius pour mobile */
         align-items: center !important; /* Centre le contenu */
         text-align: center !important; /* Centre le texte */
